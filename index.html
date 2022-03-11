@@ -57,7 +57,7 @@
             <h1>Reported posts</h1>
         </div>
         <!-- Question And Answer Section -->
-        <section class="container" id="questionAnswer">
+        <section class="container mt-5" id="questionAnswer">
             <h3 class="text-center fw-bolder text-decoration-underline">Question and Answers</h3>
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
@@ -70,7 +70,7 @@
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            JavaScript is a scripting language that is commonly used in web development. JavaScript
+                            JavaScript is a scripting language that is commonly used for web development. JavaScript
                             executes
                             in a sequential order.
                             It is an interpreted language. However, we all know that interpreted languages take more
@@ -89,22 +89,21 @@
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            What does event loop do?
+                            What does JavaScript Event Loop do?
                         </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                         data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             To run all programs, the JavaScript engine implements a stack and a queue. Event loop
-                            basically
-                            maintains the track of
-                            stack and queue and keeps the execution of program going simultaneously. Engine receives
-                            code
-                            from stack and executes
-                            them line by line before popping them off the stack and whenever the stack gets empty, the
-                            queue
-                            sends a new function to
-                            the stack to be executed.
+                            basically keeps the track of stack
+                            and queue and keeps the execution of program going simultaneously. Engine receives code from
+                            stack and executes them
+                            line by line before popping them off the stack and whenever the stack gets empty or a
+                            onClick or onLoad or onDone function is
+                            called, the queue sends a new function or the particular function called, to the stack to be
+                            executed. This circling
+                            process is known as Event Loop.
                         </div>
                     </div>
                 </div>
@@ -112,7 +111,7 @@
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Local storage vs Session storage?
+                            Difference between Local storage and Session storage?
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
@@ -142,7 +141,7 @@
 
                             5. Local storage is used for saving carts, video configuration settings etc. Session storage
                             is
-                            used for input field data,
+                            used for saving input field data,
                             banking user authentication etc.
 
                         </div>
